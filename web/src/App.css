@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-title {
+  color: #39a2dd;
+  font-family: Prompt;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.App-row1 {
+  padding-right: 30px;
+}
+
+.img-left {
+  margin-top: 20px;
+  width: 150px;
+  height: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.img-right {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Detail-title {
+  font-family: "Prompt-SemiBold";
+  font-size: large;
+  
+}
+
+.Detail-amplify {
+  font-family: "Prompt-Regular";
+  font-size: 12px;
+  font-weight: lighter;
+  color: grey;
+}
+
+.Detail-time {
+  font-family: "Prompt-Regular";
+  font-size: 12px;
+  font-weight: lighter;
+  color: grey;
+}
+
+.Categories {
+  font-family: "Prompt-Regular";
+  font-size: 12px;
+  font-weight: lighter;
+  color: grey;
+}
+.Detail-categories {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.item-container {
+  width: 600px;
+  height: 250px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 190px 360px;
+  grid-template-rows: 260px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Title-link {
+  color: black;
+  text-decoration: none;
+}
+.Not-found {
+  font-family: "Prompt-Regular";
+  color: rgb(194, 187, 187);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "Prompt";
+  src: local("Prompt"), url(font/Prompt/Prompt-Thin.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Prompt-Regular";
+  src: local("Prompt-Regular"),
+    url(font/Prompt/Prompt-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Prompt-SemiBold";
+  src: local("Prompt-SemiBold"),
+    url(font/Prompt/Prompt-SemiBold.ttf) format("truetype");
+}
